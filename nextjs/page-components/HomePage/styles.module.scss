@@ -1,0 +1,80 @@
+div.editor-wrapper {
+  border: 1px solid #e2e8f0;
+  border-radius: var(--chakra-radii-md);
+  padding: 4px;
+  transition-property: var(--chakra-transition-property-common);
+  transition-duration: var(--chakra-transition-duration-normal);
+  &:hover {
+    border-color: var(--chakra-colors-gray-300);
+  }
+  &:focus-within {
+    z-index: 1;
+    border-color: #3182ce;
+    box-shadow: 0 0 0 1px #3182ce;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+}
+
+div.editor-wrapper-error {
+  border-color: #e53e3e;
+  &:hover {
+    border-color: #e53e3e;
+  }
+  &:focus-within {
+    z-index: 1;
+    border-color: #3182ce;
+    box-shadow: 0 0 0 1px #3182ce;
+  }
+}
+
+div.editor {
+  flex: 1;
+  padding: 0 16px;
+  overflow-y: auto;
+  :global {
+    div.rdw-image-alignment-options-popup {
+      color: var(--chakra-colors-gray-800);
+    }
+  }
+}
+
+div.toolbar {
+  background-color: unset;
+  :global {
+    div.rdw-emoji-modal,
+    div.rdw-link-modal,
+    div.rdw-image-modal,
+    div.rdw-colorpicker-modal {
+      border-radius: var(--chakra-radii-lg);
+    }
+    button {
+      border-radius: var(--chakra-radii-2xl);
+    }
+  }
+}
+
+div.toolbar-font-size,
+div.toolbar-font-family,
+div.toolbar-block-type,
+div.toolbar-link-modal,
+div.toolbar-imagepicker-modal,
+div.toolbar-colorpicker-modal {
+  color: var(--chakra-colors-gray-800);
+}
+
+div.toolbar-link-modal {
+  height: 250px;
+}
+
+div.toolbar-colorpicker-modal {
+  width: 200px;
+  height: unset;
+}
+
+div.toolbar-imagepicker-modal {
+  :global div.rdw-image-modal-upload-option {
+    border-radius: var(--chakra-radii-lg);
+  }
+}
