@@ -87,9 +87,7 @@ const PasswordModal = (props: Props): JSX.Element => {
       <ModalOverlay>
         <ModalContent w='md' maxW='95%'>
           <form onSubmit={formik.handleSubmit}>
-            <ModalHeader fontSize='lg' fontWeight='bold'>
-              Protected Note
-            </ModalHeader>
+            <ModalHeader>Protected Note</ModalHeader>
             <ModalBody>
               <Collapse in={showError} animateOpacity>
                 <Alert status='error' mb='8px' rounded='md'>

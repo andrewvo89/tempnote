@@ -68,12 +68,13 @@ const DeleteConfirmationDialog = (props: Props): JSX.Element => {
             Are you sure you want to delete this note?
           </AlertDialogBody>
           <AlertDialogFooter>
-            <Button onClick={cancelHandler} isDisabled={loading}>
+            <Button onClick={cancelHandler} rounded='full' isDisabled={loading}>
               No
             </Button>
             <Button
               onClick={confirmClickHandler}
               colorScheme='red'
+              rounded='full'
               ml={3}
               isDisabled={loading}
               isLoading={loading}
