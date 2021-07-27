@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://firebasestorage.googleapis.com/v0/b/tempnote-io.appspot.com/o/assets%2Ftempnote_logo_FA-01.svg?alt=media&token=f3673b45-9d66-478e-b36b-04abbfc814b1" alt="Project logo">
+  <img src="https://firebasestorage.googleapis.com/v0/b/tempnote-io.appspot.com/o/assets%2Ftempnote_logo_FA-01.svg?alt=media&token=f3673b45-9d66-478e-b36b-04abbfc814b1" alt="Project logo" width="400px">
 </p>
 
 <div align="center">
@@ -50,6 +50,10 @@ Tempnote is a free open source online service that allows users to send secure a
 Live demo available at https://tempnote.io.
 
 For any enquiries, email hello@tempnote.io.
+
+If you would like to donate to the project, you can buy me a coffee.
+
+<a href="https://www.buymeacoffee.com/andrewvo" target="_blank"><img src="https://firebasestorage.googleapis.com/v0/b/tempnote-io.appspot.com/o/assets%2Fbmc-button.png?alt=media&token=284ab195-54bd-4d4f-b1ab-27e968c579fa" alt="Buy Me A Coffee" width=200px></a>
 
 ## ⭐️ Features
 
