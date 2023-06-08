@@ -19,7 +19,7 @@
 
 - [📝 Table of Contents](#-table-of-contents)
 - [🧐 About](#-about)
-- [⭐️ Features](#-features)
+- [⭐️ Features](#️-features)
   - [Rich Text Editor](#rich-text-editor)
   - [Automatic Note Deletion](#automatic-note-deletion)
   - [View Limits](#view-limits)
@@ -30,8 +30,8 @@
 - [📷 Screenshots](#-screenshots)
   - [Home Page](#home-page)
   - [Success Page](#success-page)
-  - [Password Protection](#password-protection)
   - [Note Page](#note-page)
+  - [Password Protection](#password-protection-1)
   - [Manually Delete Note](#manually-delete-note)
   - [Mobile Views](#mobile-views)
   - [Dark Mode](#dark-mode)
@@ -47,9 +47,9 @@
 
 Tempnote is a free open source online service that allows users to send secure and confidential information over the internet. The information automatically self destructs after a defined expiry time. On many platforms provided by big tech, your data can be stored on their servers indefinitely with your data being shared with third party providers. We make it a priority to keep your data safe and secure from prying eyes.
 
-Live demo available at https://tempnote.io.
+Live demo available at https://tempnote.vercel.app.
 
-For any enquiries, email hello@tempnote.io.
+For any enquiries, email tempnote@andrewvo.co.
 
 If you would like to donate to the project, you can buy me a coffee.
 
